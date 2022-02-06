@@ -27,16 +27,16 @@
             @if (Route::has('login'))
                 <div class="hidden fixed  px-6 py-4 sm:block">
                     @auth
-                    <button class="button-13">
-                        <a href="{{ url('/dashboard') }}" class="text-2xl text-gray-700 dark:text-gray-500 underline">Dashboard</a>
+                    <button class="button-13" role="button">
+                        <a href="{{ url('/dashboard') }}" class="text-2xl underline">Dashboard</a>
                     </button>
                     @else
-                    <buttonc lass="button-13">
-                        <a href="{{ route('login') }}" class="text-2xl text-gray-700 dark:text-gray-500 underline">LOG IN</a>
+                    <buttonc lass="button-13" role="button">
+                        <a href="{{ route('login') }}" class="text-2xl  underline">LOG IN</a>
                     </button>
                      @if (Route::has('register'))
-                    <button class="button-13">
-                        <a href="{{ route('register') }}" class="ml-4 text-2xl text-gray-700 dark:text-gray-500 underline">REGISTER</a>
+                    <button class="button-13" role="button">
+                        <a href="{{ route('register') }}" class="text-2xl  underline">REGISTER</a>
                     </button>
                     @endif
                         
