@@ -31,7 +31,7 @@
                         <a href="{{ url('/dashboard') }}" class="text-2xl underline">Dashboard</a>
                     </button>
                     @else
-                    <buttonc lass="button-13" role="button">
+                    <button class="button-13" role="button">
                         <a href="{{ route('login') }}" class="text-2xl  underline">LOG IN</a>
                     </button>
                      @if (Route::has('register'))
