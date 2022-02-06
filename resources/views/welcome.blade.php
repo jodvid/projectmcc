@@ -38,8 +38,7 @@
                     <button class="button-13" role="button">
                         <a href="{{ route('register') }}" class="text-2xl  underline">REGISTER</a>
                     </button>
-                    @endif
-                        
+                    @endif                        
                     @endauth
                 </div>
             @endif
@@ -56,20 +55,12 @@
                 </div>
 
                 <div class="ml-4 text-center text-xl text-gray-500 text-center sm:ml-0">
-                    <br>
-                        THANK YOU FOR OPENING THE WEB APP!!<br>
-                        HAVE A GREAT DAY AHEAD!!
-
-                    <br>
+                    
+                        <p>THANK YOU FOR OPENING THE WEB APP!!</p>
+                        <p>HAVE A GREAT DAY AHEAD!!</p>                   
                     <a href="https://github.com/jodvid/projectmcc" class="ml-4 text-xl text-gray-700 dark:text-gray-500 underline">Git repo here</a>
                         
-                </div>
-                
-                                
-                                        
-                
-                    <div class="ml-4 text-center text-xl text-gray-500 text-center sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                        <p>Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})</p>
                     </div>
                 
                 </div>
