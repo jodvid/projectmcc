@@ -40,6 +40,14 @@
                     </button>
                     @endif                        
                     @endauth
+                    <div class="ml-4 text-center text-xl text-gray-500 text-center sm:ml-0">
+                    
+                        <p>THANK YOU FOR OPENING THE WEB APP!!</p>
+                        <p>HAVE A GREAT DAY AHEAD!!</p>                   
+                    <a href="https://github.com/jodvid/projectmcc" class="ml-4 text-xl text-gray-700 dark:text-gray-500 underline">Git repo here</a>
+                        
+                        <p>Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})</p>
+                    </div>
                 </div>
             @endif
         
@@ -54,14 +62,7 @@
                     </svg>
                 </div>
 
-                <div class="ml-4 text-center text-xl text-gray-500 text-center sm:ml-0">
                     
-                        <p>THANK YOU FOR OPENING THE WEB APP!!</p>
-                        <p>HAVE A GREAT DAY AHEAD!!</p>                   
-                    <a href="https://github.com/jodvid/projectmcc" class="ml-4 text-xl text-gray-700 dark:text-gray-500 underline">Git repo here</a>
-                        
-                        <p>Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})</p>
-                    </div>
                 
                 </div>
             </div>
