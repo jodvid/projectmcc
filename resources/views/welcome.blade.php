@@ -45,13 +45,13 @@
                     </svg>
                 </div>
 
-                <div class="ml-4 text-center text-xl text-gray-500 sm:text-right sm:ml-0">
+                <div class="ml-4 text-center text-xl text-gray-500 text-center sm:ml-0">
                     <br>
                         THANK YOU FOR OPENING THE WEB APP!!<br>
                         HAVE A GREAT DAY AHEAD!!
 
                     <br>
-                    <a href="https://github.com/jodvid/projectmcc" class="ml-4 text-base text-gray-700 dark:text-gray-500 underline">Git repo</a>
+                    <a href="https://github.com/jodvid/projectmcc" class="ml-4 text-base text-gray-700 dark:text-gray-500 underline">Git repo here</a>
                         
                 </div>
                 
