@@ -21,9 +21,9 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class=" relative flex items-center justify-center dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class=" relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
-                <div class="hidden px-6 py-4 sm:block">
+                <div class="hidden px-6 py-4 sm:block flex justify-center">
                     @auth
                         <a href="{{ url('/dashboard') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Dashboard</a>
                     @else
