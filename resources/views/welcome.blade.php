@@ -21,7 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="py-1.5 flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+        <div class="py-10 flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
             @if (Route::has('login'))
                 <div class="hidden fixed  px-6 py-4 sm:block">
                     @auth
